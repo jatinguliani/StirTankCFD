@@ -17,7 +17,8 @@ through a single GUI interface.
 
 # Installation
 
-I am using Ubuntu since a very long time and do not have much idea about the installation of this environment on Windows.
+I mainly use Ubuntu, so the project has been developed and tested there.  
+Windows should also work, but the installation steps below are mostly collected from the internet and not fully tested by me yet 😭
 
 ## Ubuntu Installation
 
@@ -31,6 +32,34 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 ```
+
+---
+
+## Windows Installation (Not Fully Tested)
+
+Install:
+- Python 3.x
+- OpenFOAM for Windows
+- Git
+
+Then inside Command Prompt:
+
+```bash
+git clone https://github.com/jatinguliani/StirTankCFD.git
+
+cd StirTankCFD
+
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+```
+
+You may additionally need:
+- WSL (Windows Subsystem for Linux)
+- Xming/VcXsrv for ParaView/OpenFOAM GUI support
+- OpenFOAM environment sourcing depending on the installation method
 
 ---
 
