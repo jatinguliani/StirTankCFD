@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc
+
+generated_cases/
+
+*.vtu
+*.vtp
+*.vtk
+
+*.log
+*.foam
+
+.DS_Store
