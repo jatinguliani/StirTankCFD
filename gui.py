@@ -138,7 +138,7 @@ class CFDWorker(QThread):
 class TankCFDGui(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Tank CFD App")
+        self.setWindowTitle("StirTankCFD")
         self.inputs = {}
 
         layout = QGridLayout()
